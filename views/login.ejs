@@ -1,0 +1,22 @@
+<% include ./partials/header %>
+
+<h1>Login</h1>
+
+<div class="ui container">
+  <form class="ui form" action="/login" method="POST">
+    <div class="field">
+      <input class="field" type="text" name="username" placeholder="username">
+    </div>
+
+    <div class="field">
+      <input class="field" type="password" name="password" placeholder="password">
+    </div>
+      <button class="ui button" >Login</button>
+  </form>
+</div>
+
+<li><a href="/register">Sign Up!</a></li>
+<li><a href="/login">Login!</a></li>
+<li><a href="/logout">Logout!</a></li>
+
+<% include ./partials/footer %>
